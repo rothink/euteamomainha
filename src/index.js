@@ -152,6 +152,15 @@ class App extends React.Component {
             onSnapToItem={(index) => this.setState({activeIndex: index})}
           />
         </View>
+        <Text
+          onT
+          style={{
+            textAlign: 'center',
+            color: 'white',
+            fontSize: 11,
+          }}>
+          desenvolvido por: rothink.dev
+        </Text>
       </SafeAreaView>
     );
   }
