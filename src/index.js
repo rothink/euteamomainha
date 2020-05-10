@@ -5,6 +5,7 @@ import {
   SafeAreaView,
   ImageBackground,
   StyleSheet,
+  WebView,
 } from 'react-native';
 
 import Carousel from 'react-native-snap-carousel';
