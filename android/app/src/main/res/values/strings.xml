@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">euteamomainha</string>
+    <string name="CodePushDeploymentKey" moduleConfig="true" translatable="false">YOUR_DEPLOYEMENT_KEY</string>
 </resources>

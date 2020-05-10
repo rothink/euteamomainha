@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.euteamomainha"
+        applicationId "com.rothink.euteamomainha"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

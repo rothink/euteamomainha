@@ -9,6 +9,8 @@ import {
 
 import Carousel from 'react-native-snap-carousel';
 
+import CodePush from 'react-native-code-push';
+
 import img1 from './assets/img1.jpeg';
 import img2 from './assets/img2.jpeg';
 import img3 from './assets/img3.jpeg';
@@ -30,7 +32,7 @@ import img18 from './assets/img18.jpg';
 import img20 from './assets/img20.jpg';
 import img21 from './assets/img21.jpeg';
 
-export default class App extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -153,3 +155,7 @@ export default class App extends React.Component {
     );
   }
 }
+
+export default CodePush({
+  checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME,
+})(App);
